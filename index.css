@@ -38,7 +38,7 @@ main::-webkit-scrollbar {
     overflow: scroll;
 }
   
-.forn {
+.form {
     width: 70%;
     height: 20%;
     display: flex;
