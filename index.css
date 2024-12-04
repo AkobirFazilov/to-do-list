@@ -12,7 +12,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 main {
@@ -53,6 +53,7 @@ input {
     height: 30%;
     font-size: 18px;
     border-radius: 10px;
+    border: 2px solid grey;
 }
 
 button {
@@ -79,6 +80,8 @@ button {
     border-radius: 10px;
     margin-bottom: 10px;
     padding: 10px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .todoText {
@@ -96,13 +99,15 @@ h3 {
 }
 
 .delete {
-    width: 5%;
+    height: 3vh;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: large;
+    text-align: center;
 }
 
 .checkImg {
-    width: 5%;
+    height: 4vh;
 }
